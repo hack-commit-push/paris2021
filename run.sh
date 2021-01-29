@@ -1,4 +1,4 @@
 #!/bin/bash
 set -Eeuo pipefail
-jekyll serve --trace
+bundle exec jekyll serve --trace
 
