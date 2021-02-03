@@ -120,7 +120,7 @@ body>section:nth-child(even) {
 	}
 }
 
-section:not(#agenda) {
+section {
 	& {
 		padding: 10vh 4vh;
 		display: flex;
