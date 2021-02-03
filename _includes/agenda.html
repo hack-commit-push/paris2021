@@ -1,17 +1,18 @@
 <section id="agenda">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-12 text-center">
                 <h2 class="section-heading">Agenda (time in <a href="https://time.is/UTC+2" rel="noopener" target="_blank">UTC+2</a>)</h2>
                 <hr class="primary">
+                {% if site.data.agenda.size == 0 %}
+                <h3>To be announced</h3>
+                {% endif %}
             </div>
         </div>
     </div>
+    {% if site.data.agenda.size > 0 %}
     <div class="container">
         <div class="row">
-          {% if site.data.agenda.size == 0 %}
-            <p class="text-center">To be announced</p>
-          {% else %}
             {% for agendaItem in site.data.agenda %}
             <div class="col-sm-12 text-center">
                 <div class="service-box">
@@ -21,7 +22,7 @@
                 </div>
             </div>
             {% endfor %}
-          {% endif %}
         </div>
     </div>
+    {% endif %}
 </section>
