@@ -1,6 +1,6 @@
 <div class="row justify-content-start align-items-center">
 	{% if include.sponsors.size == 0 %}
-		<p class="text-center">To be announced</p>
+		<h3 class="text-center">To be announced</h3>
 	{% else %}
     {% for sponsor in include.sponsors %}
 	    {% assign mod = forloop.index0 | modulo:2 %}

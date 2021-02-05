@@ -59,6 +59,11 @@ section {
 	&, & .text-muted {
 		color: $text-color;
 	}
+
+	padding: 10vh 4vh;
+	display: flex;
+	min-height: 100%;
+	align-items: center !important;
 }
 
 body>section:nth-child(odd) {
@@ -67,9 +72,7 @@ body>section:nth-child(odd) {
 }
 
 body>section:nth-child(even) {
-	& {
-		background-color: $secondary-color;
-	}
+	background-color: $secondary-color;
 }
 
 #mainNav {
@@ -117,15 +120,6 @@ body>section:nth-child(even) {
 		a:focus {
 			border-bottom: none !important;
 		}
-	}
-}
-
-section {
-	& {
-		padding: 10vh 4vh;
-		display: flex;
-		min-height: 100%;
-		align-items: center !important;
 	}
 }
 
