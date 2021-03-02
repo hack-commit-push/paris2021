@@ -1,1 +1,16 @@
-[]
+#- name: My awesome F/OSS project!
+#  url: https://foss.example.org
+#  leads:
+#    - name: Jane Doe
+#      spoken_languages:
+#        - EN
+#        - ES
+#        - FR
+#    - name: John Doe
+#      spoken_languages:
+#        - EN
+#        - DE
+#    - name: Bir Kişi
+#      spoken_languages:
+#        - TR
+#        - EN
