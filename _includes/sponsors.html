@@ -1,26 +1,9 @@
 <section id="sponsors">
     <div class="container-fluid">
-        {% comment %}<!-- hide empty blocks -->
-        <div class="team_group row text-center">
-            <h2 class="section-heading">Gold Sponsor</h2>
-            <hr class="light">
-        </div>
-        {% include _sponsors.html sponsors=site.data.sponsors.gold left-offset=4 %}
-        <div class="team_group row text-center">
-            <h2 class="section-heading">Silver Sponsors</h2>
-            <hr class="light">
-        </div>
-        {% include _sponsors.html sponsors=site.data.sponsors.silver left-offset=4 %}
-        <div class="team_group row text-center">
-            <h2 class="section-heading">Bronze Sponsors</h2>
-            <hr class="light">
-        </div>
-        {% include _sponsors.html sponsors=site.data.sponsors.bronze left-offset=4 %}
-        {% endcomment %}
-        <div class="team_group row text-center">
+        <div class="row text-center">
             <h2 class="section-heading">Sponsors</h2>
             <hr class="light">
         </div>
-        {% include _sponsors.html sponsors=site.data.sponsors.other %}
+        {% include _sponsors.html sponsors=site.data.sponsors %}
     </div>
 </section>

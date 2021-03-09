@@ -278,10 +278,6 @@ header .header-content {
 			display: flex;
 			justify-content: center;
 			min-height: 70px;
-
-			img {
-				max-width: 100%;
-			}
 		}
 
 		a:hover, span.no_link:hover {
@@ -306,12 +302,21 @@ header .header-content {
 	}
 }
 
-#team {
-	.team_group:not(:first-child) {
-	    margin-top: 4vh;
+#sponsors {
+	img {
+		width: 140px;
+		height: max-content;
+		align-self: center;
 	}
+}
 
+#team {
 	img { background-color: $pic-bg-color;}
+	a, span.no_link {
+		img {
+			max-width: 100%;
+		}
+	}
 }
 
 @media screen and (min-width: 576px) {
