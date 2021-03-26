@@ -13,5 +13,7 @@ twitter_username: hackcommitpush
 github_username:
 github_url: https://github.com/hack-commit-push/paris2021/
 youtube_channel: https://www.youtube.com/channel/UCMTI7EciSV3AF_g_NjvMg0A
+
+registration_link: https://hack-commit-push.devcommunity.events/event/hcp-paris-2021
 # Build settings
 markdown: kramdown
