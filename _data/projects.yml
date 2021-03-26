@@ -14,3 +14,74 @@
 #      spoken_languages:
 #        - TR
 #        - EN
+- name: JBang
+  url: https://www.jbang.dev/
+  leads:
+    - name: Max Rydahl Andersen
+      spoken_languages:
+        - EN
+        - DA
+- name: JUnit Jupiter
+  url: https://www.jbang.dev/
+  leads:
+    - name: Nicolai Parlog
+      spoken_languages:
+        - EN
+        - DE
+- name: Bach
+  url: https://github.com/sormuras/bach
+  leads:
+    - name: Christian Stein
+      spoken_languages:
+        - EN
+        - DE
+- name: Maven JLink plugin and others
+  url: https://maven.apache.org/plugins/maven-jlink-plugin/
+  leads:
+    - name: Sandra Parsick
+      spoken_languages:
+        - EN
+        - DE
+- name: OpenJDK
+  url: https://openjdk.java.net/
+  leads:
+    - name: Rémi Forax
+      spoken_languages:
+        - EN
+        - FR
+- name: Eclipse Che
+  url: https://www.eclipse.org/che/
+  video_link: https://drive.google.com/file/d/16KQtUsZZihzgr9r_h6TJA8CEt0NwwaE7/view?usp=sharing
+  leads:
+    - name: Sun Seng David Tan
+      spoken_languages:
+        - EN
+        - FR
+- name: Kubernetes Documentation
+  url: https://kubernetes.io/docs/home/
+  video_link: https://drive.google.com/file/d/1s3odPFNg18lP_8Rl9r7kSo65kUaAwigE/view?usp=sharing
+  leads:
+    - name: Rémy Leone
+      spoken_languages:
+        - EN
+        - FR
+- name: QuickPerf
+  url: https://github.com/quick-perf/doc/wiki/QuickPerf
+  leads:
+    - name: Jean Bisutti
+      spoken_languages:
+        - EN
+        - FR
+- name: Azul
+  url: https://www.azul.com/
+  leads:
+    - name: Geertjan Wielenga
+      spoken_languages:
+        - EN
+        - NL
+- name: FXGL - Game Library (Engine)
+  url: https://almasb.github.io/FXGL/
+  leads:
+    - name: Almas Baimagambetov
+      spoken_languages:
+        - EN
