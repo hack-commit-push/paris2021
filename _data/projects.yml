@@ -21,8 +21,8 @@
       spoken_languages:
         - EN
         - DA
-- name: JUnit Jupiter
-  url: https://www.jbang.dev/
+- name: JUnit Pioneer
+  url: https://junit-pioneer.org/
   leads:
     - name: Nicolai Parlog
       spoken_languages:
@@ -72,7 +72,7 @@
       spoken_languages:
         - EN
         - FR
-- name: Azul
+- name: Azul Discovery API
   url: https://www.azul.com/
   leads:
     - name: Geertjan Wielenga
