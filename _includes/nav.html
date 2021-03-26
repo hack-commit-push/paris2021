@@ -19,10 +19,11 @@
                 <li>
                     <a class="page-scroll" href="#about">About</a>
                 </li>
-<!--                <li>
-                    <a rel="noopener" target="_blank" href="https://hack-commit-push.devcommunity.events/event/hcp-paris2020">Tickets <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                {% if site.registration_link %}
+                <li>
+                    <a rel="noopener" target="_blank" href="{{site.registration_link}}}">Tickets <i class="fa fa-external-link" aria-hidden="true"></i></a>
                 </li>
--->
+                {% endif %}
                 <li>
                     <a class="page-scroll" href="#venue">Video Conference</a>
                 </li>
