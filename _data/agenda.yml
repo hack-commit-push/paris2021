@@ -1,1 +1,16 @@
-[]
+- start: "9:00"
+  end: "9:30"
+  description: Introduction to the conference format, virtual keynotes
+  icon: bullhorn
+- start: "9:30"
+  end: "9:45"
+  description: Time to pick a project!
+  icon: list
+- start: "9:45"
+  end: "15:00"
+  description: Start your contributions (and take breaks!)
+  icon: laptop
+- start: "15:00"
+  end: "15:30"
+  description: Let's listen to the event recap, attend the raffle and maybe win one of the great prizes!
+  icon: gift
