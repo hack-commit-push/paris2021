@@ -85,3 +85,10 @@
     - name: Almas Baimagambetov
       spoken_languages:
         - EN
+- name: Neo4j Cypher DSL
+  url: https://github.com/neo4j-contrib/cypher-dsl
+  leads:
+    - name: Gerrit Meier
+      spoken_languages:
+        - EN
+        - DE
