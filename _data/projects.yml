@@ -121,3 +121,10 @@
       spoken_languages:
         - EN
         - FR
+- name: Neo4j APOC
+  url: https://neo4j.com/labs/apoc/
+  leads:
+    - name: Andrea Santurbano
+      spoken_languages:
+        - EN
+        - IT
