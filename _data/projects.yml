@@ -92,3 +92,14 @@
       spoken_languages:
         - EN
         - DE
+- name: AssertJ
+  url: https://assertj.github.io/doc/
+  leads:
+    - name: Patrick Allain
+      spoken_languages:
+        - EN
+        - FR
+    - name: Stefano Cordio
+      spoken_languages:
+        - EN
+        - IT
