@@ -111,3 +111,13 @@
       spoken_languages:
         - EN
         - IT
+- name: Apache Maven
+  url: https://maven.apache.org/
+  presentation:
+    link: https://docs.google.com/presentation/d/19yVkBh0MxlBURjuoHTgq6a6xsafdfUVRyyfEoP3I9EQ/edit?usp=sharing
+    icon: file
+  leads:
+    - name: Hervé Boutémy
+      spoken_languages:
+        - EN
+        - FR
