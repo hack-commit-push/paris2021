@@ -12,13 +12,13 @@
         <p>The following list of projects is being regularly updated. <a href="#projects">Bookmark it!</a></p>
         <table class="table">
         	<tr>
-        		<th class="col-md-3">Name (+ <i class="fa fa-video-camera project-video" aria-hidden="true"></i>)</th>
+        		<th class="col-md-3">Name (+ onboarding resources)</th>
         		<th class="col-md">Leads (+ spoken languages)</th>
         	</tr>
         	{% for project in projects %}
         	<tr>
                 <td class="col-md-2" rowspan="{{rowspan}}"><a href="{{project.url}}" rel="noopener" target="_blank">{{project.name | replace: ' ', '&nbsp;'}}</a>
-                {% if project.video_link %}(<a rel="noopener" target="_blank" href="{{project.video_link}}"><i class="fa fa-video-camera project-video" aria-hidden="true"></i></a>){% endif %}
+                {% if project.presentation %} <a rel="noopener" target="_blank" href="{{project.presentation.link}}"><i class="fa fa-{{project.presentation.icon}} project-presentation" aria-hidden="true"></i></a>{% endif %}
                 </td>
         		<td class="col-md">
                 {% for lead in project.leads %}
