@@ -128,3 +128,9 @@
       spoken_languages:
         - EN
         - IT
+- name: Neo4j GraphQL Library
+  url: https://neo4j.com/docs/graphql-manual/current/
+  leads:
+    - name: Daniel Starns
+      spoken_languages:
+        - EN
