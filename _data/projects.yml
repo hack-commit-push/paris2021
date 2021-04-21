@@ -114,10 +114,10 @@
 - name: Apache Maven
   url: https://maven.apache.org/
   presentation:
-    link: https://docs.google.com/presentation/d/19yVkBh0MxlBURjuoHTgq6a6xsafdfUVRyyfEoP3I9EQ/edit?usp=sharing
+    link: https://docs.google.com/presentation/d/1exCQVl8A9_Ip6PFuTuUIUiRv7nlccmamXgo1wP_UOSg/edit?usp=sharing
     icon: file
   leads:
-    - name: Hervé Boutémy
+    - name: Hervé Boutemy
       spoken_languages:
         - EN
         - FR
