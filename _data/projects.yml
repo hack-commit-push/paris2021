@@ -115,7 +115,7 @@
   url: https://maven.apache.org/
   presentation:
     link: https://docs.google.com/presentation/d/1exCQVl8A9_Ip6PFuTuUIUiRv7nlccmamXgo1wP_UOSg/edit?usp=sharing
-    icon: file
+    icon: file-test
   leads:
     - name: Hervé Boutemy
       spoken_languages:
