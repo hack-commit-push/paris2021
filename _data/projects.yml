@@ -89,6 +89,9 @@
         - NL
 - name: FXGL - Game Library (Engine)
   url: https://almasb.github.io/FXGL/
+  presentation:
+    link: https://www.youtube.com/watch?v=QyV4lbiK-00
+    icon: video-camera
   leads:
     - name: Almas Baimagambetov
       spoken_languages:
