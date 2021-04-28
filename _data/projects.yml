@@ -39,6 +39,11 @@
       spoken_languages:
         - EN
         - DE
+    - name: Jan Bernitt
+      spoken_languages:
+        - EN
+        - DE
+        - SE
 - name: Maven JLink plugin and others
   url: https://maven.apache.org/plugins/maven-jlink-plugin/
   leads:
