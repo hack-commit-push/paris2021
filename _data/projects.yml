@@ -144,3 +144,17 @@
       spoken_languages:
         - EN
         - DE
+- name: Asciidoctor
+  url: https://asciidoctor.org/
+  leads:
+    - name: Guillaume Grossetie
+      spoken_languages:
+        - EN
+        - FR 
+- name: Kroki
+  url: https://kroki.io/
+  leads:
+    - name: Guillaume Grossetie
+      spoken_languages:
+        - EN
+        - FR
