@@ -10,11 +10,18 @@
                 href="https://git-scm.com/" rel="noopener" target="_blank">Git</a> and
             <a href="https://neo4j.com/" rel="noopener" target="_blank">Neo4j</a>.</p>
         <p>The following list of projects is being regularly updated. <a href="#projects">Bookmark it!</a></p>
+        {% assign non_empty_description_count = 0 %}
+        {% for project in projects %}
+        {% if project.description %}
+        {% assign non_empty_description_count = non_empty_description_count|plus:1 %}
+        {% endif %}
+        {% endfor %}
         <table class="table">
             <tr>
                 <th class="fit">Name</th>
-                <th class="fit">Tutorial</th>
-                <th>Leads (+ spoken languages)</th>
+                <th class="fit text-center">Tutorial</th>
+                <th class="{% if non_empty_description_count > 0 %}fit text-right{% endif %}">Leads (+ spoken languages)</th>
+                {% if non_empty_description_count > 0 %}<th>Description</th>{% endif %}
             </tr>
             {% for project in projects %}
             <tr>
@@ -25,12 +32,13 @@
                         class="fa fa-{{project.presentation.icon}} project-presentation" aria-hidden="true"></i></a>{%
                     endif %}
                 </td>
-                <td>
+                <td class="{% if non_empty_description_count > 0 %}fit text-right{% endif %}">
                     {% for lead in project.leads %}
                     {{ lead.name }} ({{ lead.spoken_languages | join: ", " | replace: ' ', '&nbsp;' | replace: ',&nbsp;
                     ', ', '}}){% if forloop.last == false %}<br/>{% endif %}
                     {% endfor %}
                 </td>
+                {% if non_empty_description_count > 0 %}<td>{{project.description}}</td>{% endif %}
             </tr>
             {% endfor %}
         </table>
