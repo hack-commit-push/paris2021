@@ -20,25 +20,36 @@
             <tr>
                 <th class="fit">Name</th>
                 <th class="fit text-center">Tutorial</th>
-                <th class="{% if non_empty_description_count > 0 %}fit text-right{% endif %}">Leads (+ spoken languages)</th>
-                {% if non_empty_description_count > 0 %}<th>Description</th>{% endif %}
+                <th class="{% if non_empty_description_count > 0 %}fit text-right{% endif %}">Leads (+ spoken
+                    languages)
+                </th>
+                {% if non_empty_description_count > 0 %}
+                <th>Description</th>
+                {% endif %}
             </tr>
             {% for project in projects %}
             <tr>
                 <td class="fit" rowspan="{{rowspan}}"><a href="{{project.url}}" rel="noopener" target="_blank">{{project.name
                     | replace: ' ', '&nbsp;'}}</a></td>
                 <td class="fit text-center">{% if project.presentation %} <a rel="noopener" target="_blank"
-                                                                    href="{{project.presentation.link}}"><i
+                                                                             href="{{project.presentation.link}}"><i
                         class="fa fa-{{project.presentation.icon}} project-presentation" aria-hidden="true"></i></a>{%
                     endif %}
                 </td>
                 <td class="{% if non_empty_description_count > 0 %}fit text-right{% endif %}">
                     {% for lead in project.leads %}
-                    {{ lead.name }} ({{ lead.spoken_languages | join: ", " | replace: ' ', '&nbsp;' | replace: ',&nbsp;
-                    ', ', '}}){% if forloop.last == false %}<br/>{% endif %}
+                    {% capture lead_languages %}({{ lead.spoken_languages | join: ", " | replace: ' ', '&nbsp;' | replace: ',&nbsp;', ', '}}){% endcapture %}
+                    {% if lead.profile_url %}
+                    <a rel="noopener" target="_blank" href="{{lead.profile_url}}">{{lead.name}} <i class="fa fa-external-link" aria-hidden="true"></i></a> {{lead_languages}}
+                    {% else %}
+                    {{ lead.name }} {{lead_languages}}
+                    {% endif %}
+                    {% if forloop.last == false %}<br/>{% endif %}
                     {% endfor %}
                 </td>
-                {% if non_empty_description_count > 0 %}<td>{{project.description}}</td>{% endif %}
+                {% if non_empty_description_count > 0 %}
+                <td>{{project.description}}</td>
+                {% endif %}
             </tr>
             {% endfor %}
         </table>

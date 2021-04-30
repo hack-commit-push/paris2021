@@ -13,6 +13,7 @@
 #        - ES
 #        - FR
 #    - name: John Doe
+#      profile_url: https://twitter.com/dog_rates
 #      spoken_languages:
 #        - EN
 #        - DE
