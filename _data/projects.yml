@@ -1,5 +1,7 @@
 #- name: My awesome F/OSS project!
 #  url: https://foss.example.org
+# # description is optional but highly recommended
+#  description: This is a great example of a description that is both catchy and conciseThis is a great example of a description that is both catchy and concise
 # # presentation section is optional but highly recommended
 #  presentation:
 #   link: https://drive.google.com/file/d/1s3odPFNg18lP_8Rl9r7kSo65kUaAwigE/view?usp=sharing
