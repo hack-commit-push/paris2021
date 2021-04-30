@@ -34,6 +34,9 @@
         - DE
 - name: Bach
   url: https://github.com/sormuras/bach
+  presentation:
+    link: https://github.com/sormuras/bach/discussions/233
+    icon: tasks
   leads:
     - name: Christian Stein
       spoken_languages:
@@ -43,7 +46,7 @@
       spoken_languages:
         - EN
         - DE
-        - SE
+        - SV
 - name: Maven JLink plugin and others
   url: https://maven.apache.org/plugins/maven-jlink-plugin/
   leads:
