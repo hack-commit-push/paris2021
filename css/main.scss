@@ -53,7 +53,10 @@ hr {
 	}
 }
 
-
+.table td.fit,
+.table th.fit {
+	width: 1%;
+}
 
 section {
 	&, & .text-muted {

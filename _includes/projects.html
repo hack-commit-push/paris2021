@@ -4,30 +4,36 @@
         <h2 class="section-heading text-center">Projects</h2>
         <hr class="light">
         {% if projects.size == 0 %}
-            <h3 class="text-center">To be announced</h3>
+        <h3 class="text-center">To be announced</h3>
         {% else %}
         <p>There will be optional beginner-friendly trainings in the first half of the day on <a
                 href="https://git-scm.com/" rel="noopener" target="_blank">Git</a> and
             <a href="https://neo4j.com/" rel="noopener" target="_blank">Neo4j</a>.</p>
         <p>The following list of projects is being regularly updated. <a href="#projects">Bookmark it!</a></p>
         <table class="table">
-        	<tr>
-        		<th class="col-md-3">Name (+ onboarding resources)</th>
-        		<th class="col-md">Leads (+ spoken languages)</th>
-        	</tr>
-        	{% for project in projects %}
-        	<tr>
-                <td class="col-md-2" rowspan="{{rowspan}}"><a href="{{project.url}}" rel="noopener" target="_blank">{{project.name | replace: ' ', '&nbsp;'}}</a>
-                {% if project.presentation %} <a rel="noopener" target="_blank" href="{{project.presentation.link}}"><i class="fa fa-{{project.presentation.icon}} project-presentation" aria-hidden="true"></i></a>{% endif %}
+            <tr>
+                <th class="fit">Name</th>
+                <th class="fit">Tutorial</th>
+                <th>Leads (+ spoken languages)</th>
+            </tr>
+            {% for project in projects %}
+            <tr>
+                <td class="fit" rowspan="{{rowspan}}"><a href="{{project.url}}" rel="noopener" target="_blank">{{project.name
+                    | replace: ' ', '&nbsp;'}}</a></td>
+                <td class="fit text-center">{% if project.presentation %} <a rel="noopener" target="_blank"
+                                                                    href="{{project.presentation.link}}"><i
+                        class="fa fa-{{project.presentation.icon}} project-presentation" aria-hidden="true"></i></a>{%
+                    endif %}
                 </td>
-        		<td class="col-md">
-                {% for lead in project.leads %}
-                    {{ lead.name }} ({{ lead.spoken_languages | join: ", "  | replace: ' ', '&nbsp;' | replace: ',&nbsp; ', ', '}}){% if forloop.last == false %}<br />{% endif %}
-                {% endfor %}
+                <td>
+                    {% for lead in project.leads %}
+                    {{ lead.name }} ({{ lead.spoken_languages | join: ", " | replace: ' ', '&nbsp;' | replace: ',&nbsp;
+                    ', ', '}}){% if forloop.last == false %}<br/>{% endif %}
+                    {% endfor %}
                 </td>
-        	</tr>
-        	{% endfor %}
-		</table>
+            </tr>
+            {% endfor %}
+        </table>
         {% endif %}
     </div>
 </section>
