@@ -158,11 +158,18 @@
     - name: Guillaume Grossetie
       spoken_languages:
         - EN
-        - FR 
+        - FR
 - name: Kroki
   url: https://kroki.io/
   leads:
     - name: Guillaume Grossetie
+      spoken_languages:
+        - EN
+        - FR
+- name: Twilio
+  url: https://www.twilio.com/
+  leads:
+    - name: Valériane Venance
       spoken_languages:
         - EN
         - FR
