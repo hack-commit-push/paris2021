@@ -34,6 +34,9 @@
         - DE
 - name: Bach
   url: https://github.com/sormuras/bach
+  presentation:
+    link: https://github.com/sormuras/bach/discussions/233
+    icon: tasks
   leads:
     - name: Christian Stein
       spoken_languages:
