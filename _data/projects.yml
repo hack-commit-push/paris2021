@@ -50,10 +50,24 @@
         - EN
         - DE
         - SV
-- name: Maven JLink plugin and others
-  url: https://maven.apache.org/plugins/maven-jlink-plugin/
+- name: P2 Maven Plugin
+  url: https://github.com/reficio/p2-maven-plugin
   leads:
     - name: Sandra Parsick
+      profile_url: https://twitter.com/SandraParsick
+      spoken_languages:
+        - EN
+        - DE
+- name: Dependency Update Maven Plugin
+  url: https://github.com/georgberky/dependency-update-maven-plugin
+  leads:
+    - name: Georg Berky
+      profile_url: https://twitter.com/georgberky
+      spoken_languages:
+        - EN
+        - DE
+    - name: Sandra Parsick
+      profile_url: https://twitter.com/SandraParsick
       spoken_languages:
         - EN
         - DE
