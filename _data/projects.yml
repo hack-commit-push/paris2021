@@ -162,8 +162,10 @@
         - IT
 - name: Neo4j GraphQL Library
   url: https://neo4j.com/docs/graphql-manual/current/
+  description: Neo4j GraphQL is a GraphQL to Cypher query execution layer for JavaScript applications.
   leads:
     - name: Daniel Starns
+      profile_url: https://twitter.com/danstarns1
       spoken_languages:
         - EN
 - name: Testcontainers
