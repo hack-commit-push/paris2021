@@ -123,8 +123,10 @@
         - EN
 - name: Neo4j Cypher DSL
   url: https://github.com/neo4j-contrib/cypher-dsl
+  description: Neo4j-Cypher DSL offers type safe way of creating Cypher statements. It is used in various projects, like Spring Data Neo4j or the Neo4j GraphQL-Java library, as a foundational building block.
   leads:
     - name: Gerrit Meier
+      profile_url: https://twitter.com/meistermeier
       spoken_languages:
         - EN
         - DE
