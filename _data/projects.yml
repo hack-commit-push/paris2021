@@ -151,8 +151,10 @@
         - FR
 - name: Neo4j APOC
   url: https://neo4j.com/labs/apoc/
+  description: The APOC library consists of many (about 450) procedures and functions to help with many different tasks in areas like data integration, graph algorithms, data conversion... in order to expand and simplify the adoption of the Neo4j Graph Database!
   leads:
     - name: Andrea Santurbano
+      profile_url: https://twitter.com/santand84
       spoken_languages:
         - EN
         - IT
