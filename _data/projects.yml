@@ -80,21 +80,25 @@
         - FR
 - name: Eclipse Che
   url: https://www.eclipse.org/che/
+  description: Eclipse Che makes Kubernetes development accessible for developer teams, providing one-click developer workspaces and eliminating local environment configuration for your entire team. Che brings your Kubernetes application into your development environment and provides an in-browser IDE, allowing you to code, build, test and run applications exactly as they run on production from any machine.
   presentation:
     link: https://drive.google.com/file/d/16KQtUsZZihzgr9r_h6TJA8CEt0NwwaE7/view?usp=sharing
     icon: video-camera
   leads:
     - name: Sun Seng David Tan
+      profile_url: https://twitter.com/__sunix_
       spoken_languages:
         - EN
         - FR
 - name: Kubernetes Documentation
   url: https://kubernetes.io/docs/home/
+  description: Let's improve the translation of the Kubernetes documentation together! We will review the main issues, the review process and the tooling in place to produce the documentation!
   presentation:
     link: https://drive.google.com/file/d/1s3odPFNg18lP_8Rl9r7kSo65kUaAwigE/view?usp=sharing
     icon: video-camera
   leads:
     - name: Rémy Leone
+      profile_url: https://twitter.com/remyleone
       spoken_languages:
         - EN
         - FR
