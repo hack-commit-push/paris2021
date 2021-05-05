@@ -132,12 +132,15 @@
         - DE
 - name: AssertJ
   url: https://assertj.github.io/doc/
+  description: AssertJ is a java library that provides a rich set of assertions and truly helpful error messages, improves test code readability, and is designed to be super easy to use within your favorite IDE.
   leads:
     - name: Patrick Allain
+      profile_url: https://github.com/Patouche
       spoken_languages:
         - EN
         - FR
     - name: Stefano Cordio
+      profile_url: https://twitter.com/stefano_cordio
       spoken_languages:
         - EN
         - IT
@@ -180,15 +183,19 @@
         - DE
 - name: Asciidoctor
   url: https://asciidoctor.org/
+  description: Asciidoctor is a fast, open source, Ruby-based text processor for parsing AsciiDoc® into a document model and converting it to output formats such as HTML 5, DocBook 5, manual pages, PDF, EPUB 3, and other formats. Asciidoctor also has an ecosystem of extensions, converters, build plugins, and tools to help you author and publish content written in AsciiDoc. In addition to running on Ruby, Asciidoctor can be executed on a JVM using AsciidoctorJ or in any JavaScript environment using Asciidoctor.js.
   leads:
     - name: Guillaume Grossetie
+      profile_url: https://twitter.com/mogztter
       spoken_languages:
         - EN
         - FR
 - name: Kroki
   url: https://kroki.io/
+  description: Kroki is free and open source service providing a unified API on top of popular text-based diagram libraries such as PlantUML, Excalidraw, GraphViz, Mermaid... and more! Kroki also has an ecosystem of tools and integrations written in a variety of languages (Ruby, Go, JavaScript...) to help authors publish text-based diagrams.
   leads:
     - name: Guillaume Grossetie
+      profile_url: https://twitter.com/mogztter
       spoken_languages:
         - EN
         - FR
