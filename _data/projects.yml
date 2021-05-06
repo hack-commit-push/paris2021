@@ -180,8 +180,10 @@
         - EN
 - name: Testcontainers
   url: https://www.testcontainers.org/
+  description: Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
   leads:
     - name: Kevin Wittek
+      profile_url: https://twitter.com/kiview
       spoken_languages:
         - EN
         - DE
