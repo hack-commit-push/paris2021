@@ -103,9 +103,20 @@
         - EN
         - FR
 - name: QuickPerf
-  url: https://github.com/quick-perf/doc/wiki/QuickPerf
+  url: https://github.com/quick-perf/quickperf/blob/master/README.md
+  description: QuickPerf is a testing library for Java to quickly evaluate and improve some performance-related properties
   leads:
     - name: Jean Bisutti
+      profile_url: https://twitter.com/jean_bisutti
+      spoken_languages:
+        - EN
+        - FR
+- name: QuickPerf | SQL test data generator
+  url: https://github.com/quick-perf/sql-test-data-generator/blob/main/README.md
+  description: A Java library to ease the generation of SQL datasets
+  leads:
+    - name: Jean Bisutti
+      profile_url: https://twitter.com/jean_bisutti
       spoken_languages:
         - EN
         - FR
