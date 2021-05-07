@@ -116,13 +116,15 @@
       spoken_languages:
         - EN
         - NL
-- name: FXGL - Game Library (Engine)
-  url: https://almasb.github.io/FXGL/
+- name: FXGL - JavaFX Game Engine
+  url: https://github.com/AlmasB/FXGL
+  description: FXGL is a modern JavaFX game engine written in Java and Kotlin. FXGL allows building high-quality desktop and mobile applications and games.
   presentation:
     link: https://www.youtube.com/watch?v=QyV4lbiK-00
     icon: video-camera
   leads:
     - name: Almas Baimagambetov
+      profile_url: https://twitter.com/AlmasBaim
       spoken_languages:
         - EN
 - name: Neo4j Cypher DSL
