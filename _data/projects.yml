@@ -23,11 +23,21 @@
 #        - EN
 - name: JBang
   url: https://www.jbang.dev/
+  description: JBang unleashes the power of Java. No setup needed - just code and run with zero to minimal setup. JBang can be used from small scripts to full blown microservices or even JavaFX applications written in Java.
+  presentation:
+    link: https://github.com/jbangdev/jbang/discussions/860
+    icon: tasks
   leads:
     - name: Max Rydahl Andersen
+      profile_url: https://twitter.com/maxandersen
       spoken_languages:
         - EN
         - DA
+    - name: Tako Schotanus
+      profile_url: https://twitter.com/5esse
+      spoken_languages:
+        - EN
+        - NL
 - name: JUnit Pioneer
   url: https://junit-pioneer.org/
   description: "JUnit Pioneer provides extensions for JUnit 5 and its Jupiter API. It does not limit itself to proven ideas with wide application but is purposely open to experiments. It aims to spin off successful and cohesive portions into sibling projects or back into the JUnit 5 code base."
