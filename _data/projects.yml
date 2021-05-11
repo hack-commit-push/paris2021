@@ -177,11 +177,13 @@
         - IT
 - name: Apache Maven
   url: https://maven.apache.org/
+  description: Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
   presentation:
     link: https://docs.google.com/presentation/d/1exCQVl8A9_Ip6PFuTuUIUiRv7nlccmamXgo1wP_UOSg/edit?usp=sharing
     icon: file-text
   leads:
     - name: Hervé Boutemy
+      profile_url: https://github.com/hboutemy
       spoken_languages:
         - EN
         - FR
