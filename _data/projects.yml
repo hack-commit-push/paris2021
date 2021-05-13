@@ -244,3 +244,15 @@
       spoken_languages:
         - EN
         - FR
+- name: GoGM
+  url: https://github.com/mindstand/gogm
+  description: GoGM is an object graph mapper written in pure Go for Neo4j
+  leads:
+    - name: Eric Solender
+      profile_url: https://github.com/erictg
+      spoken_languages:
+        - EN
+    - name: Nikita Wootten
+      profile_url: https://github.com/nikitawootten
+      spoken_languages:
+        - EN
