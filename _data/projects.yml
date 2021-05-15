@@ -238,10 +238,12 @@
       spoken_languages:
         - EN
         - FR
-- name: Twilio
-  url: https://www.twilio.com/
+- name: Ruby on Rails documentation
+  url: https://rubyonrails.org/
+  description: Ruby On Rails is by far the most popular Ruby framework. Used by many developers around the globe, today we can support together the part of the community that is less prone to use English by translating the Ruby On Rails guide at Hack Commit Push 2021!
   leads:
     - name: Valériane Venance
+      profile_url: https://twitter.com/valeriane_IT
       spoken_languages:
         - EN
         - FR
