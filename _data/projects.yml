@@ -134,8 +134,9 @@
       spoken_languages:
         - EN
         - FR
-- name: Azul Discovery API
-  url: https://www.azul.com/
+- name: Universal OpenJDK Discovery API
+  url: https://github.com/foojay2020/discoapi
+  description: The foojay Disco API is a general purpose API to discover builds of OpenJDK from different distributions.
   leads:
     - name: Geertjan Wielenga
       spoken_languages:
