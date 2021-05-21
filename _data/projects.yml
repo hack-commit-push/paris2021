@@ -58,6 +58,11 @@
       spoken_languages:
         - EN
         - DE
+    - name: Matthias Bünger
+      profile_url: https://twitter.com/bukamabish
+      spoken_languages:
+        - EN
+        - DE
 - name: Bach
   url: https://github.com/sormuras/bach
   description: "Bach is a lightweight Java build tool that orchestrates JDK tools for building modular Java projects."
