@@ -53,6 +53,11 @@
       spoken_languages:
         - EN
         - HU
+    - name: Simon Schrottner
+      profile_url: https://twitter.com/aepfli
+      spoken_languages:
+        - EN
+        - DE
 - name: Bach
   url: https://github.com/sormuras/bach
   description: "Bach is a lightweight Java build tool that orchestrates JDK tools for building modular Java projects."
