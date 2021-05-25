@@ -4,7 +4,7 @@
   icon: bullhorn
 - start: "9:30"
   end: "9:45"
-  description: Time to pick a project!
+  description: Time to either pick a project or a 2-hour training and join a project afterwards!
   icon: list
 - start: "9:45"
   end: "15:00"
