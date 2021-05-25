@@ -50,6 +50,16 @@
         - EN
         - DE
     - name: Matthias Bünger
+      profile_url: https://twitter.com/bukamabish
+      spoken_languages:
+        - EN
+        - DE
+    - name: Mihály Verhás
+      spoken_languages:
+        - EN
+        - HU
+    - name: Simon Schrottner
+      profile_url: https://twitter.com/aepfli
       spoken_languages:
         - EN
         - DE
