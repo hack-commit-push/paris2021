@@ -9,11 +9,6 @@ core:
     picture: andres.png
     short_desc: Developer Advocate at Oracle
 
-  - name: Dilek
-    profile_url: https://twitter.com/dyild
-    picture: dilek.png
-    short_desc: Freelance Translator and Marketer
-
   - name: Florent
     profile_url: https://twitter.com/fbiville
     picture: florent.png
@@ -28,3 +23,14 @@ core:
     profile_url: https://www.linkedin.com/in/lydiane-u
     picture: lydiane.jpg
     short_desc: Developer
+
+  - name: Claire
+    profile_url: https://www.linkedin.com/in/claire-bellivier/
+    picture: claire.jpg
+    short_desc: DevOps AWS GCP
+
+support:
+  - name: Dilek
+    profile_url: https://twitter.com/dyild
+    picture: dilek.png
+    short_desc: Freelance Translator and Marketer
