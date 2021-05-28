@@ -52,7 +52,11 @@ hr {
 		margin-bottom: 2vh;
 	}
 }
-
+.table-wrap {
+	width: 100%;
+	overflow-y: auto;
+	position: relative;	
+}
 .table td.fit,
 .table th.fit {
 	width: 1%;
