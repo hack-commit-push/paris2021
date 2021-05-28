@@ -81,6 +81,7 @@
         - SV
 - name: P2 Maven Plugin
   url: https://github.com/reficio/p2-maven-plugin
+  description: "This is an easy-to-use Maven3 plugin responsible for the automation of the third-party dependency management in the Eclipse RCP environment."
   leads:
     - name: Sandra Parsick
       profile_url: https://twitter.com/SandraParsick
@@ -89,6 +90,7 @@
         - DE
 - name: Dependency Update Maven Plugin
   url: https://github.com/georgberky/dependency-update-maven-plugin
+  description: "The Dependency Update Maven Plugin analyzes the dependencies of your Maven project. If a more recent version of a dependency is found, the plugin will create a new branch, update the dependency version in the POM, commit and push the change, create a merge request"
   leads:
     - name: Georg Berky
       profile_url: https://twitter.com/georgberky
