@@ -19,6 +19,12 @@ $collapse-navbar-breakpoint: 1350px;
         "base"
 ;
 
+html {
+	// quick fix for background color when
+	// the project table overflows
+	background-color: $secondary-color;
+}
+
 body > * {
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
