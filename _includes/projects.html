@@ -4,34 +4,36 @@
         <hr class="light">
         <p>There will be optional beginner-friendly trainings in the first two hours of the event. You can then work on one the project listed below afterwards.</p>
         {% assign trainings = site.data.trainings | sort_natural: 'topic' %}
-        <table class="table">
-            <tr>
-                <th>Topic</th>
-                <th>Trainer(s)</th>
-                <th>Description</th>
-            </tr>
-            {% for training in trainings %}
-            <tr>
-                <td><a href="{{training.url}}" rel="noopener" target="_blank">{{training.topic | replace: ' ', '&nbsp;'}}
-                    <i
-                            class="fa fa-external-link" aria-hidden="true"></i></a></td>
-                <td>
-                    {% for trainer in training.trainers %}
-                    {% capture trainer_languages %}({{ trainer.spoken_languages | join: ", " | replace: ' ', '&nbsp;' |
-                    replace: ',&nbsp;', ', '}}){% endcapture %}
-                    {% if trainer.profile_url %}
-                    <a rel="noopener" target="_blank" href="{{trainer.profile_url}}">{{trainer.name}} <i
-                            class="fa fa-external-link" aria-hidden="true"></i></a> {{trainer_languages}}
-                    {% else %}
-                    {{ trainer.name }} {{trainer_languages}}
-                    {% endif %}
-                    {% if forloop.last == false %}<br/>{% endif %}
-                    {% endfor %}
-                </td>
-                <td>{{training.description}}</td>
-            </tr>
-            {% endfor %}
-        </table>
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <th>Topic</th>
+                    <th>Trainer(s)</th>
+                    <th>Description</th>
+                </tr>
+                {% for training in trainings %}
+                <tr>
+                    <td><a href="{{training.url}}" rel="noopener" target="_blank">{{training.topic | replace: ' ', '&nbsp;'}}
+                        <i
+                                class="fa fa-external-link" aria-hidden="true"></i></a></td>
+                    <td>
+                        {% for trainer in training.trainers %}
+                        {% capture trainer_languages %}({{ trainer.spoken_languages | join: ", " | replace: ' ', '&nbsp;' |
+                        replace: ',&nbsp;', ', '}}){% endcapture %}
+                        {% if trainer.profile_url %}
+                        <a rel="noopener" target="_blank" href="{{trainer.profile_url}}">{{trainer.name}} <i
+                                class="fa fa-external-link" aria-hidden="true"></i></a> {{trainer_languages}}
+                        {% else %}
+                        {{ trainer.name }} {{trainer_languages}}
+                        {% endif %}
+                        {% if forloop.last == false %}<br/>{% endif %}
+                        {% endfor %}
+                    </td>
+                    <td>{{training.description}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
         <hr class="light">
 
         <h2 class="section-heading text-center">Projects</h2>
