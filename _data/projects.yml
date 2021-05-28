@@ -102,6 +102,9 @@
         - DE
 - name: OpenJDK
   url: https://openjdk.java.net/
+  presentation:
+    link: https://github.com/forax/hack-commit-push-2021-openjdk
+    icon: github
   leads:
     - name: Rémi Forax
       spoken_languages:
