@@ -184,7 +184,11 @@
         - DE
 - name: AssertJ
   url: https://assertj.github.io/doc/
-  description: AssertJ is a Java library that provides a rich set of assertions and truly helpful error messages, improves test code readability, and is designed to be super easy to use within your favorite IDE.
+  description: |
+    AssertJ is a Java library that provides a rich set of assertions and truly helpful error messages, improves test code readability, and is designed to be super easy to use within your favorite IDE.<br/><br/>Contributions:
+    <ul>
+      <li><a href="https://github.com/assertj/doc/pull/106">https://github.com/assertj/doc/pull/106</a></li>
+    </ul>
   presentation:
     link: https://github.com/assertj/assertj-core/discussions/2231
     icon: tasks
