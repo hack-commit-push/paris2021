@@ -21,6 +21,8 @@
 #      spoken_languages:
 #        - TR
 #        - EN
+#  contributions: #links to contributions (once the event is done)
+#   - https://example.com/my/contribution # can be a commit, a pull/merge request...
 - name: JBang
   url: https://www.jbang.dev/
   description: JBang unleashes the power of Java. No setup needed - just code and run with zero to minimal setup. JBang can be used from small scripts to full blown microservices or even JavaFX applications written in Java.
