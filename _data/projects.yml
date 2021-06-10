@@ -40,6 +40,10 @@
       spoken_languages:
         - EN
         - NL
+  contributions:
+    - https://github.com/jbangdev/jbang/pull/898
+    - https://github.com/jbangdev/jbang/pull/899
+    - https://github.com/jbangdev/jbang/pull/900
 - name: JUnit Pioneer
   url: https://junit-pioneer.org/
   description: "JUnit Pioneer provides extensions for JUnit 5 and its Jupiter API. It does not limit itself to proven ideas with wide application but is purposely open to experiments. It aims to spin off successful and cohesive portions into sibling projects or back into the JUnit 5 code base."
@@ -65,6 +69,10 @@
       spoken_languages:
         - EN
         - DE
+  contributions:
+    - https://github.com/junit-pioneer/junit-pioneer/pull/488
+    - https://github.com/junit-pioneer/junit-pioneer/pull/489
+    - https://github.com/junit-pioneer/junit-pioneer/pull/491
 - name: Bach
   url: https://github.com/sormuras/bach
   description: "Bach is a lightweight Java build tool that orchestrates JDK tools for building modular Java projects."
@@ -81,6 +89,10 @@
         - EN
         - DE
         - SV
+  contributions:
+    - https://github.com/sormuras/bach/releases/tag/17-ea-4
+    - https://github.com/sormuras/bach/pull/235
+    - https://github.com/sormuras/bach/pull/237
 - name: P2 Maven Plugin
   url: https://github.com/reficio/p2-maven-plugin
   description: "This is an easy-to-use Maven3 plugin responsible for the automation of the third-party dependency management in the Eclipse RCP environment."
@@ -104,6 +116,12 @@
       spoken_languages:
         - EN
         - DE
+  contributions:
+    - https://github.com/georgberky/dependency-update-maven-plugin/pull/30
+    - https://github.com/georgberky/dependency-update-maven-plugin/pull/31
+    - https://github.com/georgberky/dependency-update-maven-plugin/pull/33
+    - https://github.com/georgberky/dependency-update-maven-plugin/releases/tag/0.7.0
+    - https://github.com/georgberky/dependency-update-maven-plugin/pull/32
 - name: OpenJDK
   url: https://openjdk.java.net/
   presentation:
@@ -114,6 +132,8 @@
       spoken_languages:
         - EN
         - FR
+  contributions:
+    - https://github.com/lilian-benoit/jdk/commit/e5f4c102d80f69d4baaa0cfb8345599f01d96db4
 - name: Eclipse Che
   url: https://www.eclipse.org/che/
   description: Eclipse Che makes Kubernetes development accessible for developer teams, providing one-click developer workspaces and eliminating local environment configuration for your entire team. Che brings your Kubernetes application into your development environment and provides an in-browser IDE, allowing you to code, build, test and run applications exactly as they run on production from any machine.
@@ -126,6 +146,9 @@
       spoken_languages:
         - EN
         - FR
+  contributions:
+    - https://github.com/demsking/vscode-teletype-guest/commit/6849e033dcffb669c67d13021a71a3a7374dfe37
+    - https://github.com/demsking/vscode-teletype-guest/commit/84e1dc317c04f4c3b7f454e0299afb1f96d2ed4d
 - name: Kubernetes Documentation
   url: https://kubernetes.io/docs/home/
   description: Let's improve the translation of the Kubernetes documentation together! We will review the main issues, the review process and the tooling in place to produce the documentation!
@@ -138,6 +161,9 @@
       spoken_languages:
         - EN
         - FR
+  contributions:
+    - https://github.com/kubernetes/website/pull/28164
+    - https://github.com/kurotix/website/commit/5581c306992e20d0b8901a0ad790c6b6a1587a17
 - name: QuickPerf
   url: https://github.com/quick-perf/quickperf/blob/master/README.md
   description: QuickPerf is a testing library for Java to quickly evaluate and improve some performance-related properties
@@ -156,6 +182,8 @@
       spoken_languages:
         - EN
         - FR
+  contributions:
+    - https://github.com/quick-perf/sql-test-data-generator/pull/13
 - name: Universal OpenJDK Discovery API
   url: https://github.com/foojay2020/discoapi
   description: The foojay Disco API is a general purpose API to discover builds of OpenJDK from different distributions.
@@ -184,6 +212,10 @@
       spoken_languages:
         - EN
         - DE
+  contributions:
+    - https://github.com/AlmasB/FXGL/pull/1059
+    - https://github.com/AlmasB/FXGL/pull/1060
+    - https://github.com/AlmasB/FXGL/pull/1061
 - name: AssertJ
   url: https://assertj.github.io/doc/
   description: AssertJ is a Java library that provides a rich set of assertions and truly helpful error messages, improves test code readability, and is designed to be super easy to use within your favorite IDE.
@@ -201,6 +233,8 @@
       spoken_languages:
         - EN
         - IT
+  contributions:
+    - https://github.com/assertj/doc/pull/106
 - name: Apache Maven
   url: https://maven.apache.org/
   description: Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
@@ -242,6 +276,8 @@
       spoken_languages:
         - EN
         - DE
+  contributions:
+    - https://github.com/testcontainers/testcontainers-java/pull/4136
 - name: Asciidoctor
   url: https://asciidoctor.org/
   description: Asciidoctor is a fast, open source, Ruby-based text processor for parsing AsciiDoc® into a document model and converting it to output formats such as HTML 5, DocBook 5, manual pages, PDF, EPUB 3, and other formats. Asciidoctor also has an ecosystem of extensions, converters, build plugins, and tools to help you author and publish content written in AsciiDoc. In addition to running on Ruby, Asciidoctor can be executed on a JVM using AsciidoctorJ or in any JavaScript environment using Asciidoctor.js.
@@ -254,6 +290,8 @@
       spoken_languages:
         - EN
         - FR
+  contributions:
+    - https://github.com/asciidoctor/asciidoctor-cli.js/pull/155
 - name: Kroki
   url: https://kroki.io/
   description: Kroki is free and open source service providing a unified API on top of popular text-based diagram libraries such as PlantUML, Excalidraw, GraphViz, Mermaid... and more! Kroki also has an ecosystem of tools and integrations written in a variety of languages (Ruby, Go, JavaScript...) to help authors publish text-based diagrams.
@@ -272,6 +310,10 @@
       spoken_languages:
         - EN
         - FR
+  contributions:
+    - https://github.com/vvenance/rails/pull/1
+    - https://github.com/vvenance/rails/pull/2
+    - https://github.com/vvenance/rails/pull/3
 - name: GoGM
   url: https://github.com/mindstand/gogm
   description: GoGM is an object graph mapper written in pure Go for Neo4j
@@ -284,3 +326,6 @@
       profile_url: https://github.com/nikitawootten
       spoken_languages:
         - EN
+  contributions:
+    - https://github.com/mindstand/gogm/pull/63
+    - https://github.com/mindstand/gogm/pull/64
